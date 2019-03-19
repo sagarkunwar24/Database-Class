@@ -11,6 +11,6 @@ Group By p.CategoryID ;
 
 Select c.CategoryName, Avg(p.Price)
 From w3schoolsdb.products As p
-Inner Join w3schoolsdb.categories As c // inner join is same as join
+Inner Join w3schoolsdb.categories As c /* inner join is same as join */
 On p.CategoryID = c.CategoryID
 Group By c.CategoryName ;
