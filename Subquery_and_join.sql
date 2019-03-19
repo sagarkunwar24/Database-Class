@@ -31,7 +31,7 @@ Select *
 From W3schoolsDB.Orders
 Where CustomerID In
 (
-	Select CustomerID
+	Select CustomerID  /*select _ _ from inside sub-query has to be same for outside where _ _*/
 	From W3schoolsDB.Customers
 	Where Country = "UK"
 ) ;
