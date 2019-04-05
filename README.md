@@ -2,4 +2,4 @@
 
 
 
-Database-Class class exercises.
+Database-Class class exercises and homeworks.
