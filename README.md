@@ -1,5 +1,1 @@
-
-
-
-
-Database-Class class exercises and homeworks.
+Database Class exercises, quizzes, and homeworks.
