@@ -1,3 +1,8 @@
+• The CASE statement always goes in the SELECT clause
+• CASE must include the following components: WHEN, THEN, and END. ELSE is an optional component.
+• You can make any conditional statement using any conditional operator (like WHERE) between WHEN and THEN. This includes stringing together multiple conditional statements using AND and OR.
+• You can include multiple WHEN statements, as well as an ELSE statement to deal with any unaddressed conditions.
+
 //single condition
 SELECT player_name,
        year,
@@ -24,3 +29,6 @@ SELECT player_name,
             WHEN weight > 175 AND weight <= 200 THEN '176-200'
             ELSE '175 or under' END AS weight_group
   FROM benn.college_football_players
+  
+  
+https://mode.com/resources/sql-tutorial/sql-case/
